@@ -3,7 +3,7 @@ import joblib
 import streamlit as st
 
 # Load trained SVM model
-model = joblib.load(r"C:\Users\admin\OneDrive\Desktop\hacker\svm_model.pkl")
+model = joblib.load("svm_model.pkl")
 
 # Required input columns
 expected_columns = [
